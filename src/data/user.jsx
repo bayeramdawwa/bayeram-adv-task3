@@ -3,7 +3,7 @@ const INFO = {
 		title: " Bayeram dawwa ",
 		name: "Bayeram Dawwa",
 		email: "beramdawa@gmail.com",
-		logo: "/logo.jpg",
+		logo: "./src/assets/logo.jpg",
 	},
 
 	socials: {
@@ -38,7 +38,7 @@ const INFO = {
 			title: "Landing Page",
 			description:
 				"A simple, responsive landing page with some animations, using reactjs",
-			logo: ("/Reactlogo.png"),
+			logo: ("./src/assets/Reactlogo.png"),
 			linkText: "View Project",
 			link: "https://bayeramdawwa.github.io/bayeram_dawwa_task1/",
 		},
@@ -65,7 +65,7 @@ const INFO = {
 			title: "trippy ",
 			description:
 				"Travel website template, responsive. using React, bootstrap",
-			logo: ("/Reactlogo.png"),
+			logo: ("./src/assets/Reactlogo.png"),
 			linkText: "View Project",
 			link: "https://bayeramdawwa.github.io/trippy",
 		},

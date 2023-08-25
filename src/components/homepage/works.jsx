@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="/focalx.jpg"
+								src="./src/assets/focalx.jpg"
 								alt="focalx"
 								className="work-image"
 							/>
