@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import NavBar from "../components/common/navBar";
-
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
@@ -30,7 +27,6 @@ const Contact = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">

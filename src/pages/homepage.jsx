@@ -12,7 +12,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
@@ -80,7 +79,6 @@ const Homepage = () => {
 			</Helmet>
 
 			<div className="page-content">
-				{/* <NavBar active="home" /> */}
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>

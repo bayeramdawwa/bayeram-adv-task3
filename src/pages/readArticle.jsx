@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
-
-import NavBar from "../components/common/navBar";
-
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
@@ -37,7 +34,6 @@ const ReadArticle = () => {
 			</Helmet>
 
 			<div className="page-content">
-				{/* <NavBar /> */}
 
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">

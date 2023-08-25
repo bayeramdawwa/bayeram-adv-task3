@@ -1,14 +1,9 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import NavBar from "../components/common/navBar";
-
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
 import "./styles/about.css";
 
 const About = () => {
@@ -30,7 +25,6 @@ const About = () => {
 			</Helmet>
 
 			<div className="page-content">
-				{/* <NavBar active="about" /> */}
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
